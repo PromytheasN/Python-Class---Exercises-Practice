@@ -20,7 +20,7 @@ class RomanNumeral:
                 roman_num += roman[i]
             i += 1
                 
-        return roman_num
+        return "".join(roman_num)
       
       #you can test it by calling the class like this.
       #print(RomanNumeral().transformation(number))
